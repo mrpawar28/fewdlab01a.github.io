@@ -1,0 +1,107 @@
+body{
+    background-image: url(images/student.jpg);
+    
+    background-size:cover ;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+   
+    
+    
+}
+header{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    color:white;
+    background-color: rgba(53, 50, 50, 0.552);
+    margin-top: 0%;
+    
+    
+   
+    
+   
+}
+.logo img{
+    width: 278px;
+height: 100px;
+padding-right: 53px;
+}
+.submenu{
+    display: none;
+    position:absolute;
+    background-color:  rgba(53, 50, 50, 0.552);
+    list-style: none;
+    padding:10px;
+    border: 2px;
+    border-radius: 15px;
+}
+.menu{
+    display: flex;
+    list-style: none;
+    padding: 10px;
+    background-color:  rgba(53, 50, 50, 0.552);    margin: 0;
+    
+}
+.menu li{
+    margin-left: 20px;
+}
+.menu a{
+    color:white;
+    text-decoration: none;
+}
+
+li a:hover{
+    background-color: white;
+    color:rgba(58, 57, 57, 0.377)
+}
+.navigate{
+    
+        display: flex;
+        list-style: none;
+        padding: 10px;
+        background-color:  rgba(53, 50, 50, 0.552);
+        margin: 0;
+        justify-content: center;
+        
+        
+    }
+    .navigate li{
+        margin-left: 30px;
+        text-align: center;
+    }
+    .navigate a{
+        color: white;
+        font-size: large;
+        text-decoration: none;
+        
+    }
+    .motive{
+        padding: 20px;
+        max-width: 100%;
+       
+       
+
+        background-color: rgba(42, 40, 40, 0.274);
+    }
+    .motive p{
+        
+        padding-left: 100px;
+        font-size: 25px;
+        color: white;
+        max-width: 100%;
+    }
+    .campusvid{
+        text-align: center;
+      
+        border-radius: 50%;
+        
+    }
+    footer{
+        background-color: rgba(245, 245, 245, 0.666);
+        height: 90px;
+    padding: 4px;;
+        margin:0;
+    }
